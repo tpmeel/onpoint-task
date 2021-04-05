@@ -1,0 +1,50 @@
+@keyframes scaleIn {
+    from {
+        transform: scale(.0, .0);
+        opacity: 0.62;
+    }
+    to {
+        transform: scale(1.5, 1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes scaleInBorder {
+    from {
+        transform: scale(.3, .3);
+        opacity: 1;
+    }
+    to {
+        transform: scale(1.5, 1.5);
+        opacity: 1;
+    }
+}
+
+.animatedCircles{
+    position: absolute;
+}
+
+.circle{
+    margin: 1px;
+    border-radius: 50%;
+    background: radial-gradient(#d02f36, #de771c);
+    position: absolute;
+    opacity: 0;
+    animation: scaleIn 4s infinite;
+}
+/* наверное не лучшее решение, но больше ничего не придумал с: */
+.circleBorder{
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+    animation: scaleInBorder 4s infinite;
+    border: 1px solid #dd781b;
+}
+
+.animatedCirclesText{
+    width: max-content;
+    position: absolute;
+    font-family: "Lato";
+    font-size: 18px;
+    color: rgb(13, 49, 156);
+}

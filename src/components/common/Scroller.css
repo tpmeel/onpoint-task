@@ -1,0 +1,43 @@
+.scroller {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scrollerLine {
+    height: 12px;
+    width: 618px;
+    background-color: rgba(209, 234, 255, .3);
+    position: relative;
+}
+
+.scrollerProgress {
+    background-color: #d1eaff;
+    height: 100%;
+    position: absolute;
+}
+
+.scrollerIcon {
+    position: absolute;
+    width: 44px;
+    height: 55px;
+    background: url('../../images/slider-icon.png');
+    background-size: cover;
+    transform: translate(0, -50%);
+    left: -8px;
+    opacity: 1;
+}
+
+.scrollerPoints {
+    margin-top: 30px;
+    font-family: Gotham Pro;
+    width: 618px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 20px;
+}

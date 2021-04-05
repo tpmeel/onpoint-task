@@ -1,0 +1,25 @@
+.slideFirst {
+    width: 1024px;
+    height: 768px;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.slideFirstTitle {
+    font-size: 30px;
+    font-family: Gotham Pro;
+    color: #ffffff;
+    margin-left: 84px;
+    margin-top: 117px;
+}
+
+.slideFirstBox {
+    background: url('../../images/slide-1-box.png');
+    width: 578px;
+    height: 330px;
+    background-size: cover;
+    align-self: center;
+    margin-top: 64px;
+}

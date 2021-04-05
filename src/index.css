@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('./fonts/gothamPro/GothamPro.eot');
+  src: local('Gotham Pro'), local('GothamPro'),
+  url('./fonts/gothamPro/GothamPro.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/gothamPro/GothamPro.woff') format('woff'),
+  url('./fonts/gothamPro/GothamPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('./fonts/lato/Lato-Medium.ttf');
+}
